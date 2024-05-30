@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Vajeeha Out</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="firstPage">
+        <h1>Hiiiii Vajeeha</h1>
+        <button onclick="showSecondPage()">Hey Yash</button>
+    </div>
+    <div class="container" id="secondPage" style="display:none;">
+        <h1 id="secondPageText">I want to ask you something</h1>
+        <button onclick="showThirdPage()">What you want to ask Yash</button>
+    </div>
+    <div class="container" id="thirdPage" style="display:none;">
+        <h1>Can I take you out on a date?</h1>
+        <button onclick="showSuccessPage()">Of course Yash you can</button>
+        <button onclick="showRetryPage()">NO</button>
+    </div>
+    <div class="container" id="successPage" style="display:none;">
+        <h1>Good choice Vajeeha!</h1>
+        <p>Now you can contact Yash on:</p>
+        <p>IG: @yash.bajaj.167</p>
+        <p>Snapchat: yash_bajaj123</p>
+        <p>Phone number: 8689855440</p>
+        <div class="party-popper">🎉🎉🎉</div>
+    </div>
+    <div class="container" id="retryPage" style="display:none;">
+        <h1>OK</h1>
+        <p id="funnyMessage"></p>
+        <p>Redirecting in <span id="countdown">3</span> seconds...</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
