@@ -5,7 +5,7 @@ const funnyMessages = [
     "Come on, give me a chance! 🤔",
     "Seriously? Again? 😂",
     "You're killing me here! 😭",
-    "I thought we had something special! 😜"
+    "I thought we had something special!"
 ];
 
 function showSecondPage() {
